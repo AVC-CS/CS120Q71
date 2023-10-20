@@ -6,5 +6,5 @@ int main()
 	int retval;
 
 	retval = getDiff(numbers, N);
-	cout << "The greatest gap is " << numbers[retval] << " and " << numbers[retval + 1] << endl;
+	cout << "The pair is " << numbers[retval] << "\t" << numbers[retval + 1] << endl;
 }
